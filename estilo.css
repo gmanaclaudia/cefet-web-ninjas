@@ -1,0 +1,86 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.globo {
+  display: inline;
+}
+
+img.ibagem{
+  border: 2px solid #254C6E;
+  margin-top: 10px;
+}
+
+img.ibagem:hover{
+  border: 2px solid #647E95;
+  margin-top: 10px;
+}
+
+
+li.globo {
+  list-style-image: url(img/globo.png);
+  padding: 5px;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  font-family: serif;
+  color: #424242;
+}
+
+body {
+  color: #1D1919;
+  padding: 30px;
+  text-align: justify;
+  font-family: sans-serif;
+  background-image: url(img/background.jpg);
+}
+
+body a:link {
+  color: #254C6E;
+  text-decoration: none;
+}
+
+body a:visited {
+  color: #254C6E;
+  text-decoration: underline;
+}
+
+body a:hover {
+  color: #4682B7;
+}
+
+body a:active {
+  font-weight: bold;
+}
+
+.nota {
+  opacity: 0.7;
+}
+
+.nota:hover{
+  opacity: 0.4;
+}
+
+.numero {
+  font-size: 25px;
+  color: #696969;
+  background-color: #D3D3D3;
+  padding: 5px;
+}
+
+.nome-passo {
+  font-size: 20px;
+}
+
+.texto {
+  background-color: #fff;
+  padding: 10px;
+}
